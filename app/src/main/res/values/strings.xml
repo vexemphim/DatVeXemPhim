@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DatVeXemPhim</string>
+    <string name="txtTen">Họ Và Tên:</string>
+    <string name="diachi">Địa chỉ: Đường N1, Khu trường học đào tạo và dạy nghề Bắc Hòn Ông – Phước Đồng – Nha Trang – Khánh Hòa </string>
+    <string name="cinema">TRUNG NGUYEN CINEMA</string>
+    <string name="txtSĐT">Số điện thoại:</string>
+    <string name="txtNgàySinh">Email:</string>
+    <string name="editTên"></string>
+    <string name="editSĐT"></string>
+    <string name="editNgàySinh"></string>
+    <string name="txtGiớiTính">Giới Tính</string>
+    <string name="chkNam">Nam</string>
+    <string name="chkNữ">Nữ</string>
+    <string name="txtChọnPhim">Phim hôm nay:</string>
+    <string-array name="chonphim_array">
+        <item>Trạng Quỳnh</item>
+        <item>Siêu Sao Siêu Ngố</item>
+        <item>Cua Lại Vợ Bầu</item>
+        <item>Hồn Pa Pa Da Con Gái</item>
+        <item>Ba Chàng Khuyết</item>
+        <item>Biệt Đội Siêu Anh Hùng 4: Hồi Kết Avengers: Endgame</item>
+        <item>Sát Thủ John Wick 3: Chuẩn Bị Chiến Tranh John Wick Chapter 3: Parabellum</item>
+    </string-array>
+    <string name="txtChọnRạp">Chọn Rạp</string>
+    <string-array name="chonrap_array">
+        <item>CGV Big C Nha Trang</item>
+        <item>Beta</item>
+        <item>LotteCinema</item>
+    </string-array>
+    <string name="txtSốLượngVé">Số Lượng Vé:</string>
+    <string name="editSốLượngVé"></string>
+    <string name="txtĐịaChỉ">Địa Chỉ</string>
+    <string name="editĐịaChỉ"></string>
+    <string name="ndaladdin">Phiên bản live-action của phim hoạt hình Aladdin (1992) kinh điển. Dựa trên truyện cổ tích trứ danh xứ Ả Rập, phim kể về chàng trai mồ côi lang thang Aladdin vô tình có được cây đèn thần kỳ diệu, với vị thần vui tính ban cho anh ba điều ước. Nhưng khi chuyện đến tai Jafar, Aladdin phải lao vào cuộc hành trình để giải cứu công chúa Jasmine, vương quốc và đánh bại gã pháp sư độc ác.</string>
+</resources>

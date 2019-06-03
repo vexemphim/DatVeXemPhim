@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trangchu">
+
+    <LinearLayout
+        android:id="@+id/pokemon"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/spiderman"
+        app:layout_constraintStart_toEndOf="@+id/godzilla"
+        app:layout_constraintTop_toBottomOf="@+id/thucung">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="120dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/pokemon" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Pokémon: Thám tử Pikachu"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/spiderman"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doraemon">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="113dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/spiderman" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Spider-Man: Người Nhện Xa Nhà"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/doraemon"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="113dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/doraemon" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Doraemon: Nobita và Mặt Trăng phiêu lưu ký "
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/godzilla"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aladdin">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="113dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/godzilla" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Chúa Tể Godzilla"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aladdin"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="113dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/aladin" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Aladdin"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thucung"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/doraemon"
+        app:layout_constraintStart_toEndOf="@+id/aladdin"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="113dp"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/dangcapthucung" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Đẳng Cấp Thú Cưng 2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem chi tiết" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="411dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:text="ĐANG CHIẾU"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="263dp"
+        android:layout_height="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logotrungnguyen" />
+
+</android.support.constraint.ConstraintLayout>
